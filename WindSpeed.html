@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Wind Visualization</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html">Lattitude</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="Comparison.html">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="Data.html">Data</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"  role ="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="MaxTemp.html">Max Temperature</a>
+                            <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+    </div>
+    <div class="container">
+    <h3>Latitude vs Wind Speed</h3>
+    <hr class="my-4">
+    <p>Wind speeds do not seem to be related to latitude, but there is a band in the northern hemisphere 
+        (between 60 and 80 degrees) that has higher winds than anywhere else. In some cities in this band 
+        the wind speed exceeds 35 mph.
+    </p>
+    <a target="_blank" href="lat_vs_wind.png">
+      <img src="lat_vs_wind.png" alt="Wind Speed Plot">
+    </a>
+    </div>
+</body>
+
+</html>
